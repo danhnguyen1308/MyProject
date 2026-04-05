@@ -25,3 +25,26 @@ Complexity can be assessed based on several factors:
 - **High**: Complex projects requiring extensive planning and resources.
 
 Use this guide to systematically analyze and prioritize requirements.
+
+## Evaluating User Stories
+
+User stories are short descriptions of features from the end-user's perspective. To evaluate a user story, use the INVEST criteria to ensure quality and estimate complexity.
+
+### INVEST Criteria
+
+- **Independent**: The story should be self-contained and not depend on other stories.
+- **Negotiable**: Details can be discussed and refined with stakeholders.
+- **Valuable**: The story provides clear value to the user or business.
+- **Estimable**: The team can reasonably estimate the effort required.
+- **Small**: The story is small enough to be completed in one sprint.
+- **Testable**: Acceptance criteria can be defined to verify completion.
+
+### Complexity Evaluation for Stories
+
+Assess complexity using story points or similar metrics:
+
+- **1-2 Points**: Simple tasks with clear requirements.
+- **3-5 Points**: Moderate complexity with some unknowns.
+- **8+ Points**: High complexity; consider breaking down into smaller stories.
+
+Review each story against these criteria to improve planning and delivery.
