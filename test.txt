@@ -1,0 +1,21 @@
+Hướng dẫn thêm file, commit và push lên nhánh mới:
+
+1. Tạo nhánh mới và chuyển sang nhánh đó:
+   git checkout -b ten-nhanh-moi
+
+2. Thêm file vào staging area:
+   git add <ten-file>
+   // hoặc thêm tất cả file thay đổi:
+   git add .
+
+3. Commit các thay đổi:
+   git commit -m "Mô tả thay đổi của bạn"
+
+4. Đẩy nhánh mới lên remote:
+   git push -u origin ten-nhanh-moi
+
+Ghi chú:
+- `git checkout -b` tạo và chuyển sang nhánh mới cùng lúc.
+- `git add` đặt các file vào khu vực chờ commit.
+- `git commit` lưu lại thay đổi cục bộ.
+- `git push -u origin ...` thiết lập nhánh upstream trên remote và đẩy nhánh lên.
